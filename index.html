@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neoz Web Emulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="launcher">
+        <header>
+            <div class="system-title" id="system-title">Neoz</div>
+            <div class="status-bar">
+                <span id="clock">00:00</span> | 100% ⚡
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- New System Selection -->
+            <div id="system-selector" class="system-selector">
+                <!-- Systems injected here -->
+            </div>
+
+            <div class="game-browser-container" id="game-browser-container" style="display:none; flex: 1; display: flex; gap: 20px; overflow: hidden;">
+                <div class="game-browser" id="game-list">
+                    <!-- Games will be injected here -->
+                </div>
+
+                <div class="preview-section">
+                    <div class="cover-wrapper">
+                        <img id="current-cover" src="" alt="Cover">
+                    </div>
+                    <div class="game-info">
+                        <h2 id="game-title">SELECT A GAME</h2>
+                        <p id="game-meta">NINTENDO GBA</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="nav-hints">
+                <div class="hint" id="hint-a"><div class="btn-key">A</div> SELECT</div>
+                <div class="hint" id="hint-b"><div class="btn-key">B</div> BACK</div>
+                <div class="hint"><div class="btn-key">↑↓</div> NAVIGATE</div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
