@@ -1,0 +1,54 @@
+{
+    "N64": [
+        {
+            "title": "SUPER MARIO 64",
+            "file": "roms/N64/SuperMario64.html",
+            "cover": "roms/covers/SuperMario64.png",
+            "year": "1996",
+            "publisher": "NINTENDO"
+        }
+    ],
+    "GBC": [
+        {
+            "title": "POKEMON CRYSTAL",
+            "file": "roms/GBC/PokemonCrystal.html",
+            "cover": "roms/covers/PokemonCrystal.png",
+            "year": "2000",
+            "publisher": "NINTENDO"
+        }
+    ],
+    "GBA": [
+        {
+            "title": "POKEMON FIRE RED",
+            "file": "roms/GBA/PokemonFireRed.html",
+            "cover": "roms/covers/PokemonFireRed.png",
+            "year": "2004",
+            "publisher": "NINTENDO"
+        },
+        {
+            "title": "ZELDA: MINISH CAP",
+            "file": "roms/GBA/ZeldaMinishCap.html",
+            "cover": "roms/covers/ZeldaMinishCap.png",
+            "year": "2005",
+            "publisher": "NINTENDO"
+        }
+    ],
+    "GB": [
+        {
+            "title": "TETRIS",
+            "file": "roms/GB/Tetris.html",
+            "cover": "roms/covers/Tetris.png",
+            "year": "1989",
+            "publisher": "NINTENDO"
+        }
+    ],
+    "DS": [
+        {
+            "title": "MARIO KART DS",
+            "file": "roms/DS/MarioKartDS.html",
+            "cover": "roms/covers/MarioKartDS.png",
+            "year": "2005",
+            "publisher": "NINTENDO"
+        }
+    ]
+}
